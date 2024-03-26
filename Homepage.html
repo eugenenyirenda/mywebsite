@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="40;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eugene's stock website</title>
+</head>
+
+    <style>
+        body{
+        background-color: navajowhite;
+        background-image: url(download\ \(4\).jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+       
+
+        }
+
+        .slide {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: slide 21s linear infinite;
+        color: purple;
+        font-size: xx-large;
+        }
+
+        @keyframes slide {
+        0% {
+        transform: translateX(100%);
+        }
+        100% {
+        transform: translateX(-100%);
+        }        
+        }
+
+        body{
+        background-color: honeydew;
+        }
+
+        table{
+        background-color: peachpuff;
+        margin: 20px;     
+        width: 80%;
+        height: 140px;
+        border: 2px;
+        border-color: black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+        transition: background 0.2s;  
+        }
+
+        table th{
+        background-color: red;
+        font-size: larger;
+        color: black
+        }
+        
+        table  td{
+        padding-left: 20px;
+        color: forestgreen;
+        }
+
+        b{
+        color: #d21e69;
+        font-size: x-large;
+        padding-left: 45%;;    
+        }  
+      
+    
+       .red { color: red; }
+       .blue { color: blue; }
+       .green { color: green; }
+       .orange { color: orange; }
+       .purple { color: purple; }
+       .pink { color: pink; }
+       .teal { color: teal; }
+       .yellow { color: yellow; }
+       .navy { color: navy; }
+       .maroon { color: maroon; }
+       .indigo { color: indigo; } 
+       .darkkhaki { color: darkkhaki; } 
+       .lawngreen { color: lawngreen; }   
+    
+       .for-more button{
+        margin-left: 8px;
+        padding-left: 10px;
+        background-color: #d21e69;
+        font-size: x-large;
+        border-radius: 5px;
+        border: none;
+        border-color: aqua;
+        }
+
+       .for-more{
+        font-size: xx-large;
+        }
+
+        /* Styling for the button and options */
+        .container {
+        position: relative;
+        display: inline-block;
+        }
+
+        .button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;    
+        transition: transform 0.3s;
+        }
+        
+          .About:hover{
+           background-color: #69ec70;
+           transform: translate(5px, -5px);
+          }
+        .options {
+        display: none;
+        position: absolute;
+        background-color: #e3ebd4;
+        border: 1px solid hsl(0, 86%, 42%);
+        padding: 2px;
+        top: 60%;
+        left: 3;
+        z-index: 1;
+        border-radius: 3px;
+        font-size: x-large;
+        }
+
+        /* Show the options when hovering over the button */
+        .container:hover .options {
+            display: table-row;
+        }
+
+         #paragraph{
+            color: #e8f0e8;
+            
+         }
+        #paragraph1{
+            color: azure;
+            
+        }
+
+        .paragraph2{
+           font-size: xx-large;
+           color: yellow;
+           float: right;
+           border-style: dotted;
+           border-radius: 1px solid;
+           border-color: floralwhite;
+           border-top-style: outset ;
+           border-right-style: outset ;
+           border-right-color: red ;
+           background-position: sticky;
+           backface-visibility: unset;
+        }
+        
+        .float {
+        animation: float 2s linear infinite;
+        }
+
+        @keyframes float {
+        0%,
+        100%{
+        transform: translateY(-2rem);
+        }
+        50% {
+        transform: translateY(3rem);
+        }        
+        }
+
+
+        .bond {
+        animation: float 4s linear infinite;
+        }
+
+        @keyframes float {
+        0%,
+        100%{
+        transform: translateY(-1.5rem);
+        }
+        50% {
+        transform: translateY(2rem);
+        }        
+        }
+
+    </style>
+
+<body>
+    <script src="alert_script.js"></script>
+
+    <div class="slide">
+    <span class="red">Welcome</span>
+    <span class="blue">To</span>
+    <span class="green">affordable</span>
+    <span class="orange">price</span>
+    <span class="purple">products</span>
+    <span class="pink">:</span>
+    <span class="teal">Click</span>
+    <span class="yellow">on</span>
+    <span class="navy">the</span>
+    <span class="maroon">Links</span>
+    <span class="indigo">for</span>
+    <span class="darkkhaki">More</span>
+    <span class="lawngreen">information.</span>
+</div>
+
+    <table border="1">
+            <tr>
+            <th>S\N</th>
+            <th>Product</th>
+            <th>Link</th>     
+            </tr>
+
+        <tr>
+            <td>1</td>
+            <td>CLOTHES</td>
+            <td><a href="Clothes.html">clothes link</a></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>SHOES</td>
+            <td><a href="Shoe.html">shoe Link</a></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>CAR</td>
+            <td><a href="Car.html">Car Link</a></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+  
+<div class="container">
+<nav class="for-more">
+    <button class="About">About us</button>
+    <b>
+        <div class="options">
+        <p><h6><a href="contact.html">Contacts</a></h6></p>
+        <p><h6><a href="details.html">Details</a></h6></p>
+        </div>
+    </div>
+</nav>
+<hr>
+<p id="paragraph">
+    The more, the more. Our company has 10 years experience in deliverance of high quality good and services at an affordable price. We do our best to ensure our customer satisfy their preferences.  
+</p>
+<p>
+
+</p>
+<p class="paragraph2"> 
+    Created and Supported by Eugene Nyirenda the pioneer with self believe that he can achieve and provide advance support in technological development. 
+ <img src="IMG_20221016_145912_404.jpg" class="bond" style="height: 250px; margin-right: 18%; margin-top: 15px; padding-left: 2%; width: (1px, 10px);">
+ 
+ <img src="IMG-20230528-WA0000.jpg" class="float" style="height: 250px; margin-left: 1050px; margin-top: -550px;"> 
+</p>
+</body>
+</html>
+
+

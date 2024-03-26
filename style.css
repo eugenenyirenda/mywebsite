@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    
+}
+body {
+    background-color: yellowgreen;
+    display: flex;/*defines how far away from the left to right*/
+    min-height: 100vh;/*defines the height away from the top*/
+    justify-content: center;/*means the program has to be on the center*/
+    align-items: center;/*put the whole item into the center too as well*/
+}
+.wrapper{
+    background-color: rgb(228, 208, 227);
+    width: 50%;
+    color: rgb(245, 139, 139);
+    height: 80%;
+    font-size: x-large;
+    border-radius: 6px;
+}
+.wrapper h1{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    background-color: yellow;
+    height: 50px;
+    width: 100%;
+    margin: 90px 0;
+}
+.input-box input{
+    background-color: rgb(247, 218, 215);
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(225, 255, 255, 2);
+    border-radius: 4px;
+    font-size: larger;
+
+}
+.input-box input::placeholder {
+color: blue;
+}
+.wrapper.remembering-box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    
+}
+.wrapper.remembering-box lebel input{
+    accent-color: #fff;
+    margin: 3pt;
+}
+.wrapper .btn{
+    background-color: #fff;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.Register-link{
+color: red;
+
+
+}

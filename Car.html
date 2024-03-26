@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car.html</title>
+    </head>
+        <style>
+            .slide {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: slide 15s linear infinite;
+            color: rgb(110, 255, 105);
+            font-size: xx-large;
+        }
+             @keyframes slide {
+            0% {
+                transform: translateX(100%);
+               }
+            100% {
+                transform: translateX(-100%);
+                 }
+            
+            }
+            body{
+                background-color: aquamarine;
+                margin-left: 35px;  
+                background: linear-gradient(to right, aquamarine, rgb(128, 0, 64));
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+            }
+             
+              button{
+                border-radius: 5px;
+                border: none;
+                font-size: xx-large;
+                cursor: pointer;
+                color: wheat;
+                background-color: rgb(42, 91, 165);
+                margin-top: 30px;
+                
+            }
+            
+             .navigation {
+              margin-bottom: 2%;
+              padding: 10px;
+              background-color: rgb(64, 145, 118);
+              margin-right: 47%;
+              margin-left: 2px;
+            }
+
+            .navigation a {
+             color: #fff;
+             text-decoration: none;
+             margin-right: 20px; 
+            }
+
+            .navigation a + a {
+             margin-left: 85px; 
+             }
+
+            .homebutton{
+                transition: transform 0.3s;
+            }
+             .homebutton:hover{
+                background-color: rgb(208, 219, 192);
+                transform: translate(7px, -7px);
+             }
+
+        </style>
+    
+        <body>
+                 <div class="slide">Welcome to our special cars for affodable prices</div>
+
+                 <nav class="navigation">
+                    <a href="Homepage.html"><button class="homebutton">Go home</button></a>
+                   <a href="Clothes.html"><button class="homebutton">Clothes</button></a>
+           <a href="Shoe.html"><button class="homebutton">Shoes</button></a>
+           </nav>
+
+                 <table border="1">
+                    <tr>
+                    <th>S\N</th>
+                    <th>CAR TYPE</th>
+                    <th >DESCRIPTION</th>
+                    <th>PAYMENT METHODS</th>
+                    </tr>
+
+                     <tr>
+                     <th style="padding-bottom: 220px;">1</th>
+                     <th><img style="margin: 0px; padding: 20px; background-color: #ff00bf; width: 250px; height: 300px;" src="ghi-boxycars-1677096549.png"></a></th>
+                     <th style="padding-left: 1px; margin-right: 200px; font-size: x-large;"> Price:<br>Name:<br>Engine Size:<br>Gasoline: <br><br><a href="quotation.html">Get Quotation</th>
+                     <th style="color: brown; font-size: xx-large;"><i>VISA</i></th> 
+                     </tr>
+
+                     <tr>
+                     <th style="padding-bottom: 220px;">2</th>
+                     <th><img style="margin: 0px; padding: 20px; background-color: seagreen; width: 250px; height: 250px;" src="download.jpeg"></a></th>
+                     <th style="padding-left: 1px; margin-right: 200px; font-size: x-large;"> Price:<br>Name:<br>Engine Size:<br>Gasoline:  <br><br><a href="2quotation.html">Get Quotation</th>
+                     <th style="color: brown; font-size: xx-large;"><i><b>CASH</b></i></th> 
+                     </tr>
+
+                     </table>
+            
+                     
+        </body>
+</html>

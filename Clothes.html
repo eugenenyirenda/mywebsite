@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes.html</title>
+</head>
+<style>
+    .slide {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: slide 15s linear infinite;
+            color: rgb(255, 0, 0);
+            background-image: url(download\ \(4\).jpeg);
+            background-color: #ff00bf;
+            font-size: xx-large;
+        }
+             @keyframes slide {
+            0% {
+                transform: translateX(100%);
+               }
+            100% {
+                transform: translateX(-100%);
+                 }
+            
+            }
+    body{
+        background-color: burlywood;
+        
+    }
+    table{
+        margin-left: 1.5%;
+    
+    }
+    button{
+        font-size: x-large;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+        .homebutton{
+        background-color: hsl(298, 86%, 44%);
+        color: #ffffff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        transition: transform 0.3s;
+        }
+       .homebutton:hover {
+        background-color: rgb(155, 216, 63);
+        transform: translate(7px, -7px);
+        }
+       .navigations{
+        padding: 10px;
+        margin-right: 52%;
+        background-color: rgb(101, 163, 218);
+        margin-left: 20px;
+        margin-bottom: 2%;
+        }
+        .navigations a + a {
+             margin-left: 90px; 
+             }
+       </style>
+<body>
+    <div class="slide">Welcome to our beautiful Ladies Amazing dresses</div>
+
+    
+    <nav class="navigations">
+        <a href="Homepage.html"><button class="homebutton"> home</button></a>
+        <a href="Car.html"><button class="homebutton"> Cars</button></a>
+        <a href="Shoe.html"><button class="homebutton"> Shoes</button></a>
+    </nav>
+
+    <table style="align-items: center;" border="2" >
+    <tr>
+    <th>WOMENS DRESESS</th><br>
+    </tr>
+  
+    </table>
+    <table border="3">
+                 <tr>   
+                    <th>S\N</th>
+                    <th>CLOTHES TYPE</th>
+                    <th >DESCRIPTION</th>
+                    <th>PAYMENT METHODS</th>
+                    </tr>
+
+                 <tr>
+                    <th style="padding-bottom: 40%;">1</th>
+                    <th><img style="margin: 0px; padding: 20px; background-color: #ff00bf; width: 250px; height: 300px;" src="images (2).jpeg"></a></th>
+                    <th style="padding-left: 1px; margin-right: 200px;"> Price:<br>Name:<br>Dress Size:<br>Color: <br> <a href="3quotation.html"> Get Quotation</a></th>
+                    <th style="color: brown;"><i>VISA</i></th> 
+                </tr>
+
+                <tr>
+                   <th style="padding-bottom: 40%;">2</th>
+                   <th><img style="margin: 0px; padding: 20px; background-color: seagreen; width: 250px; height: 250px;" src="images.jpeg"></a></th>
+                   <th style="padding-left: 1px; margin-right: 200px;"> Price:<br>Name:<br>Dress Size:<br>color:  <br> <a href="4quotation.html"> Get Quotation</a></th>
+                   <th style="color: brown;"><i>CASH</i></th> 
+                </tr>
+
+                <tr>
+                   <th style="padding-bottom: 40%;">3</th>
+                   <th><img style="margin: 0px; padding: 20px; background-color: darkorange; width: 250px; height: 250px;" src="images (1).jpeg"></a></th>
+                   <th style="padding-left: 1px; margin-right: 200px;"> Price:<br>Name:<br>Dress Size:<br>color:  <br> <a href="5quotation.html"> Get Quotation</a></th>
+                   <th style="color: brown;"><i>DIGITAL-CASH</i></th> 
+                 </tr>
+    </table>
+          </body>
+    </head>
+</html>
